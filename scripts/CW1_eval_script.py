@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 np.random.seed(123)
 
 # Import training data
-df = pd.read_csv('CW1_train.csv')
+df = pd.read_csv('data/CW1_train.csv')
 
 # Identify categorical columns
 categorical_cols = ['cut', 'color', 'clarity']  # Replace with actual categorical column names
